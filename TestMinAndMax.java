@@ -15,7 +15,6 @@ public class TestMinAndMax {
             arr[i] = Integer.parseInt(parts[i]);
         }
 
-        // Using separate methods
         int min = MinAndMaxUtils.findMin(arr);
         int max = MinAndMaxUtils.findMax(arr);
 
@@ -23,7 +22,6 @@ public class TestMinAndMax {
         System.out.println("Minimum: " + min);
         System.out.println("Maximum: " + max);
 
-        // Using combined method
         int[] result = MinAndMaxUtils.findMinMax(arr);
 
         System.out.println("\nUsing combined method:");

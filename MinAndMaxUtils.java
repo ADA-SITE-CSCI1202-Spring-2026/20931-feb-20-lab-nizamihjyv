@@ -20,7 +20,7 @@ public class MinAndMaxUtils {
         return max;
     }
 
-    // Method which finds both min and max together by creating an array
+    // Method which finds both min and max together by creating an array :)
 
     public static int[] findMinMax(int[] arr) {
         int min = arr[0];
